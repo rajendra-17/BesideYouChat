@@ -1,0 +1,26 @@
+
+:root{
+--primary: #FFE300;
+--primary-shade: #ffe100d7;
+--secondary: #e8e8e8ff;
+--secondary-shade: rgb(249, 249, 249);
+--black-olive: #363732ff;
+--lemon-curry: #cba328ff;
+--tertiary: #62ab37ff;
+color:black;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--secondary);
+  overflow: hidden;
+  background-image: url("/background1.jpg"); 
+    background-size: cover;
+    /* opacity: 0.9; */
+}
